@@ -4,13 +4,13 @@
     box-sizing: border-box;
 }
 body {
-    background-color: rgb(136, 167, 176);
+    background-color: white;
 }
 .navbar {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    background-color: rgb(24, 199, 187);
+    background-color: white;
     padding: 15px 5%;
     box-shadow: 0 2px 5px rgb(157, 139, 139);
 }
@@ -35,12 +35,12 @@ body {
     
 }
 .nav-links a {
-    color: lightcoral;
+    color: black;
     text-decoration: none;
 }
 .nav-links :hover {
     
-    color: purple;
+    color: lawngreen;
 }
 .btn {
     background-color: rgb(141, 179, 194);
@@ -53,4 +53,62 @@ body {
 .btn :hover {
     background-color: blueviolet;
 }
+#hero-section {
+      padding-top: 20px;
+      /* border: 1px solid red; */
+     text-align: center;
+     background: url('hero-bg.png'),rgba(0, 25, 49, 0.8);
+
+    color: white;
+    background-size: cover;
+    padding-bottom: 190px;
+    
+}
+.hero-contant h1 {
+    font-weight: bold;
+    font-size: 3.5rem;
+    padding-top: 115px;
+    
+}
+.hero-contant .highlight {
+    color: green;
+}
+.hero-contant p {
+    font-size: 1.1rem;
+    line-height: 1.6;
+    display: flex;
+    flex-direction: column;
+
+}
+.hero-buttons {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    text-decoration: none;
+}
+.hero-buttons .btn-primary{
+    /* border: 1px solid red; */
+    background-color: rgb(12, 171, 12);
+    border-radius: 4px;
+    color: white;
+}
+.hero-buttons .play-icon {
+    border: 1px solid rgb(12, 12, 12);
+    color: white;
+}
+
+.rakibul {
+    padding: 100px;
+    text-align: center;
+}
+.subtitle {
+    margin-bottom: 50px;
+    font-size: 1rem;
+}
+.card-grid {
+    display: flex;
+    grid-template-columns: repeat(4,1ft);
+}
+
+
 
