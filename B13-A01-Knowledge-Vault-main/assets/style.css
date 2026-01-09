@@ -93,7 +93,7 @@ body {
     color: white;
 }
 .hero-buttons .play-icon {
-    border: 1px solid rgb(12, 12, 12);
+    border: 1px solid rgb(225, 205, 205);
     color: white;
 }
 
@@ -107,7 +107,18 @@ body {
 }
 .card-grid {
     display: flex;
-    grid-template-columns: repeat(4,1ft);
+    gap: 10px;
+}
+
+.card {
+     background: rgb(227, 209, 209);
+     padding: 40px 20px;
+     border-radius: 15px;
+     border: 1px solid blanchedalmond;
+     box-shadow: 10px 10px 0;
+}
+.card-grid :hover {
+    background-color: rgb(136, 186, 186);
 }
 
 
