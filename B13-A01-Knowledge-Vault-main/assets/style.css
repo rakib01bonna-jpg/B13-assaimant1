@@ -180,7 +180,8 @@ body {
     align-items: center;
 }
 .progarm {
-    padding: 50px;
+    
+    padding-top: 120px;
     max-width: 600px;
 }
 .progarmh1 {
@@ -211,5 +212,61 @@ p {
     justify-content: center;
     margin-right: 20px;
     background-color: rgba(232, 253, 253, 0.689);
+
+}
+.main-footer {
+    background: var(--style,rgba(0, 5, 49, 1));
+    padding: 30px;
+    font-family: sans-serif;
+}
+.footer-top {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 30px;
+
+}
+.footer-logo {
+    align-items: center;
+    display: flex;
+}
+.logo-text {
+    font-size: 50px;
+    font-weight: bold;
+    color: rgb(220, 231, 220);
+    margin-left: 10px;
+}
+.social-conteainer {
+    text-align: right;
+}
+.social-icon {
+    color: white;
+    font-size: 1.2rem;
+    margin-left: 15px;
+    text-decoration: none;
+
+}
+.social-icon a {
+    color: white;
+}
+.social-conteainer p{
+    color: white;
+}
+.footer-divider {
+    border: 0;
+    border-top: 5px solid rgb(220, 203, 203);
+    margin: 20px 0;
+}
+.footer-bottom {
+    text-align: center;
+    font-size: 2.5rem;
+    color: antiquewhite;
+
+}
+.btn-primary {
+    border: 1px solid rgb(225, 214, 214);
+    background-color: greenyellow;
+    border-radius: 5px;
+    text-decoration: none;
     
 }
