@@ -121,5 +121,59 @@ body {
     background-color: rgb(136, 186, 186);
 }
 
+.star-list {
+    display: flex;
+    align-items: center;
+    gap: calc(2px);
+}
 
+.solution-section {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 40px;
+}
+
+.solution-section .container {
+  width: 50%;
+  display: flex;
+  justify-content: center;
+  
+}
+
+.solution-section .container .imageofList {
+  width: 90%;
+  height: 100%;
+  max-width: 800px;
+}
+
+.solution-section .content-side {
+  width: 50%;
+}
+
+.sub-heading {
+  color: #777;
+  font-size: 14px;
+  letter-spacing: 2px;
+}
+
+.star-list-container {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  margin-top: 20px;
+}
+
+.star-list {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.star-list img {
+  width: 20px;
+  height: 20px;
+}
+
+ 
 
